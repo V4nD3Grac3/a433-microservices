@@ -32,7 +32,7 @@ workflows:
   lint-test-build:
     jobs:
     - lint-dockerfile
-    - build-app-karsajobs:
+    - build-app-karsajobs-ui:
         requires:
         - lint-dockerfile
         filters:
